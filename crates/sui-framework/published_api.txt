@@ -1036,6 +1036,9 @@ allocate_tokens
 activate_validators
 	fun
 	0x3::genesis
+nitro_attestation_verify
+	public fun
+	0x2::attestation
 secp256k1_ecrecover
 	public fun
 	0x2::ecdsa_k1
